@@ -40,6 +40,24 @@ export default defineUserConfig({
 			},
 		],
 		repo: 'https://github.com/dongyuanwai/learnjts',
+
+        // 侧边栏
+		sidebar: {
+			// 不同子路径下的页面会使用不同的侧边栏
+			'/pages/learnJTs/': [
+				{
+				text: '使用教程',
+				children: ['install_guide.md', 'detail_usage.md'],
+				},
+			],
+			'/pages/other/': [
+				{
+				text: 'other',
+				children: ['other.md'],
+				},
+			],
+		},
+
 	}),
     
 })
