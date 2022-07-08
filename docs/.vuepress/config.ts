@@ -1,7 +1,7 @@
 import { defineUserConfig, defaultTheme} from 'vuepress'
 
 export default defineUserConfig({
-	base:'/learnjtsdoc/',
+	base:'/',
 	lang: 'zh-CN',
 	title: 'LearnJTs',
 	description: 'JS工具类方法,手写常用js方法汇总',
