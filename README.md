@@ -7,6 +7,6 @@ Learnjts 是我在进行真实项目时，常用到的一些工具方法；并�
 
 所以你不仅可以将learnjts引入到你的项目中，还可以借助此文档来学习js
 
-[learnjts项目源码](https://dongyuanwai.github.io/learnjts)
+[learnjts项目源码](https://github.com/dongyuanwai/learnjts)
 
 详细内容移步此文档[Learnjts文档](https://dongyuanwai.github.io/learnjtsdoc/)
