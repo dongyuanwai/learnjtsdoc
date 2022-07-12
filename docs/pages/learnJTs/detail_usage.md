@@ -154,3 +154,81 @@ const deepClone = function (target, hash = new WeakMap()) {
 - `Object.getPrototypeOf()` 方法返回指定对象的原型（内部`[[Prototype]]`属性的值）
 - `Object.create()`方法创建一个新对象，使用现有的对象来提供新创建的对象的__proto__。
 - 静态方法 Reflect.ownKeys 返回一个由目标对象自身的属性键组成的数组。
+
+## 防抖
+### debounce
+`debounce` 在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
+
+使用方式:传入一个方法名，一个时间（毫秒）;返回一个函数，需要用一个变量接收，使用时调用
+```js
+let newFun = debounce(funName,200) //200ms后执行funName
+
+newFun() // 执行这个方法
+```
+### 解析
+防抖，防止抖动，以免把一次事件误认为多次，敲键盘就是一个每天都会接触到的防抖操作。
+
+想要了解一个概念，必先了解概念所应用的场景。在 JS 这个世界中，有哪些防抖的场景呢
+
+- 登录、发短信等按钮避免用户点击太快，以致于发送了多次请求，需要防抖
+- 调整浏览器窗口大小时，resize 次数过于频繁，造成计算过多，此时需要一次到位，就用到了防抖
+- 文本编辑器实时保存，当无任何更改操作一秒后进行保存
+
+可以看出来防抖重在清零 clearTimeout(timer)
+
+::: tip
+防抖：防止抖动，单位时间内事件触发会被重置，避免事件被误伤触发多次。代码实现重在清零 clearTimeout。防抖可以比作等电梯，只要有一个人进来，就需要再等一会儿。业务场景有避免登录按钮多次点击的重复提交。
+:::
+#### 源码
+```js
+function debounce(funName, delay) {
+    return function (args) {
+        let that = this
+        let _args = args
+        clearTimeout(funName.id)
+        // 每执行一次函数都会默认有一个id值，以函数id值作为定时器id
+        funName.id = setTimeout(function () {
+            funName.call(that, _args)
+        }, delay)
+    }
+}
+```
+**重新赋值this的原因:**this 必须指向调用它的对象，而定时器里面指向全局对象 window 是不合适的。
+
+## 节流
+### throttle
+`throttle` 高频事件触发，但在 n 秒内只会执行一次，所以节流会稀释函数的执行频率
+
+使用方式:传入一个方法名，一个时间（毫秒）;返回一个函数，需要用一个变量接收，使用时调用
+```js
+let newFun = throttle(funName,200) //200ms后执行funName
+
+newFun() // 执行这个方法
+```
+### 解析
+节流，控制水的流量。控制事件发生的频率，如控制为 1s 发生一次，甚至 1 分钟发生一次。与服务端(server)及网关(gateway)控制的限流 (Rate Limit) 类似。
+
+- scroll 事件，每隔一秒计算一次位置信息等
+- 浏览器播放事件，每个一秒计算一次进度信息等
+- input 框实时搜索并发送请求展示下拉列表，每隔一秒发送一次请求 (也可做防抖)
+
+代码如下，可以看出来节流重在加锁 timer=timeout
+::: tip
+节流：控制流量，单位时间内事件只能触发一次，与服务器端的限流 (Rate Limit) 类似。代码实现重在开锁关锁 timer=timeout; timer=null。节流可以比作过红绿灯，每等一个红灯时间就可以过一批。
+:::
+#### 源码
+```js
+function throttle(funName,wait){
+    let timer;
+    return function(){
+        let _this = this;
+        let args = arguments;
+        if(!timer){
+            timer = setTimeout(function(){
+                timer = null
+                funName.applay(_this,args)
+            },wait)
+        }
+    }
+}
+```
