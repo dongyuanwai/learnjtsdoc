@@ -232,3 +232,13 @@ function throttle(funName,wait){
     }
 }
 ```
+
+## 数组乱序
+使用洗牌算法来进行数组乱序
+### shuffle
+
+
+### 详细解析
+
+
+
