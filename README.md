@@ -10,3 +10,11 @@ Learnjts 是我在进行真实项目时，常用到的一些工具方法；并�
 [learnjts项目源码](https://github.com/dongyuanwai/learnjts)
 
 详细内容移步此文档[Learnjts文档](https://dongyuanwai.github.io/learnjtsdoc/)
+
+获取变量类型
+
+防抖
+
+节流
+
+
