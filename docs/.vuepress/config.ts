@@ -1,5 +1,5 @@
 import { defineUserConfig, defaultTheme} from 'vuepress'
-
+import sidebar from './config/slidebar.js'
 export default defineUserConfig({
 	base:'/learnjtsdoc/',
 	lang: 'zh-CN',
@@ -38,26 +38,16 @@ export default defineUserConfig({
 						},
 					],
 			},
+			// 算法的导航
+			{
+				text: '算法',
+				link: '/pages/algorithm/index.md',
+			},
 		],
 		repo: 'https://github.com/dongyuanwai/learnjts',
 
         // 侧边栏
-		sidebar: {
-			// 不同子路径下的页面会使用不同的侧边栏
-			'/pages/learnJTs/': [
-				{
-				text: '使用教程',
-				children: ['install_guide.md', 'detail_usage.md'],
-				},
-			],
-			'/pages/other/': [
-				{
-				text: 'other',
-				children: ['other.md'],
-				},
-			],
-		},
-
+		sidebar: sidebar
 	}),
     
 })
