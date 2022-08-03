@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-4f91d9c4","path":"/pages/algorithm/","title":"\u4F7F\u7528JavaScript\u7834\u89E3\u7B97\u6CD5","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1659193449000,"contributors":[{"name":"dongyuanwai","email":"yuanwaidong@gmail.com","commits":1}]},"filePathRelative":"pages/algorithm/index.md"}');export{a as data};
