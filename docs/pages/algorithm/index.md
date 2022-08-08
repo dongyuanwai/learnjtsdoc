@@ -6,3 +6,4 @@
 ### 4.[第一个错误版本-JavaScript解题](https://juejin.cn/post/7128029782767304718)
 ### 5.[反转字符串-JavaScript解题](https://juejin.cn/post/7128398456753750030)
 ### 6.[搜索插入位置-JavaScript解题](https://juejin.cn/post/7128675995225161735)
+### 7.[无重复字符的最长子串-JavaScript解题](https://juejin.cn/post/7129154973639639077)
