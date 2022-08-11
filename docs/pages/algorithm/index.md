@@ -7,5 +7,5 @@
 ### 5.[反转字符串-JavaScript解题](https://juejin.cn/post/7128398456753750030)
 ### 6.[搜索插入位置-JavaScript解题](https://juejin.cn/post/7128675995225161735)
 ### 7.[无重复字符的最长子串-JavaScript解题](https://juejin.cn/post/7129154973639639077)
-### 7.[移动零-JavaScript解题](https://juejin.cn/post/7129513929289498638)
-### 7.[最长回文串-JavaScript解题](https://juejin.cn/post/7129886029162479652)
+### 8.[移动零-JavaScript解题](https://juejin.cn/post/7129513929289498638)
+### 9.[最长回文串-JavaScript解题](https://juejin.cn/post/7129886029162479652)
