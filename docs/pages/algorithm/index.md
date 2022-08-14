@@ -9,3 +9,6 @@
 ### 7.[无重复字符的最长子串-JavaScript解题](https://juejin.cn/post/7129154973639639077)
 ### 8.[移动零-JavaScript解题](https://juejin.cn/post/7129513929289498638)
 ### 9.[最长回文串-JavaScript解题](https://juejin.cn/post/7129886029162479652)
+### 10.[生成每种字符都是奇数个的字符串-JavaScript解题](https://juejin.cn/post/7130255506329272351)
+### 11.[重新格式化字符串-JavaScript解题](https://juejin.cn/post/7130624201547300871)
+

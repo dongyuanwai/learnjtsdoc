@@ -4,7 +4,7 @@ export default defineUserConfig({
 	base:'/learnjtsdoc/',
 	lang: 'zh-CN',
 	title: 'LearnJTs',
-	description: 'JS工具类方法,手写常用js方法汇总',
+	description: 'JS工具类方法,手写常用js方法汇总,算法,JavaScript解算法',
 	head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
 
     theme: defaultTheme({
