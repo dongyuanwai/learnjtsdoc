@@ -11,4 +11,7 @@
 ### 9.[最长回文串-JavaScript解题](https://juejin.cn/post/7129886029162479652)
 ### 10.[生成每种字符都是奇数个的字符串-JavaScript解题](https://juejin.cn/post/7130255506329272351)
 ### 11.[重新格式化字符串-JavaScript解题](https://juejin.cn/post/7130624201547300871)
+### 12.[链表两数相加-JavaScript解题](https://juejin.cn/post/7131005623168794661)
+### 13.[数组中的字符串匹配-JavaScript解题](https://juejin.cn/post/7131363797641461774)
+### 14.[分割字符串的最大得分-JavaScript解题](https://juejin.cn/post/7131740322287058957)
 
