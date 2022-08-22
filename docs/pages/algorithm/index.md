@@ -14,4 +14,8 @@
 ### 12.[链表两数相加-JavaScript解题](https://juejin.cn/post/7131005623168794661)
 ### 13.[数组中的字符串匹配-JavaScript解题](https://juejin.cn/post/7131363797641461774)
 ### 14.[分割字符串的最大得分-JavaScript解题](https://juejin.cn/post/7131740322287058957)
+### 15.[回文数-JavaScript解题](https://juejin.cn/post/7132120029159489572)
+### 16.[最长公共前缀-JavaScript解题](https://juejin.cn/post/7132850825801498637)
+### 17.[移除元素-JavaScript解题](https://juejin.cn/post/7132850825801498637)
+### 18.[在既定时间做作业的学生人数-JavaScript解题](https://juejin.cn/post/7133585383602225160)
 
