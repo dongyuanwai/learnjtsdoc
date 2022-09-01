@@ -20,4 +20,6 @@
 ### 18.[在既定时间做作业的学生人数-JavaScript解题](https://juejin.cn/post/7133585383602225160)
 ### 19.[实现 strStr()-JavaScript解题](https://juejin.cn/post/7133973002672799751)
 ### 20.[检查单词是否为句中其他单词的前缀-JavaScript解题](https://juejin.cn/post/7134350957361496100)
+### 21.[最后一个单词的长度-JavaScript解题](https://juejin.cn/post/7134577066925621279)
+### 22.[多数元素-JavaScript解题](https://juejin.cn/post/7135453823736217637)
 
