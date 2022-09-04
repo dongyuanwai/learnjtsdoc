@@ -23,3 +23,6 @@
 ### 21.[最后一个单词的长度-JavaScript解题](https://juejin.cn/post/7134577066925621279)
 ### 22.[多数元素-JavaScript解题](https://juejin.cn/post/7135453823736217637)
 
+### 23.[两个数组的交集-JavaScript解题](https://juejin.cn/post/7135816871344865287)
+### 24.[数组中两元素的最大乘积-JavaScript解题](https://juejin.cn/post/7136553705494544420)
+### 25.[重新排列数组-JavaScript解题](https://juejin.cn/post/7137298789659836429)
