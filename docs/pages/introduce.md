@@ -1,4 +1,6 @@
 # learnjts工具库
+
+## 技术交流网站首推 掘金；因为InfoQ真的很恶心，用着难受
 ## 介绍
 Learnjts是一个JavaScript实用工具库，里面有各种常用的工具方法
 
