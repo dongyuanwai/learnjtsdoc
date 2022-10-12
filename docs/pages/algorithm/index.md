@@ -26,3 +26,5 @@
 ### 23.[两个数组的交集-JavaScript解题](https://juejin.cn/post/7135816871344865287)
 ### 24.[数组中两元素的最大乘积-JavaScript解题](https://juejin.cn/post/7136553705494544420)
 ### 25.[重新排列数组-JavaScript解题](https://juejin.cn/post/7137298789659836429)
+### 26.[合并两个有序数组-JavaScript解题](https://juejin.cn/post/7139906306797731854)
+### 27.[存在重复元素-JavaScript解题](https://juejin.cn/post/7140280746379313183)
