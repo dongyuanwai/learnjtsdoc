@@ -28,3 +28,5 @@
 ### 25.[重新排列数组-JavaScript解题](https://juejin.cn/post/7137298789659836429)
 ### 26.[合并两个有序数组-JavaScript解题](https://juejin.cn/post/7139906306797731854)
 ### 27.[存在重复元素-JavaScript解题](https://juejin.cn/post/7140280746379313183)
+### 28.[判定是否互为字符重排-JavaScript解题](https://juejin.cn/post/7148439523477684260)
+### 29.[最大重复子字符串-JavaScript解题](https://juejin.cn/post/7148810623726878727)
